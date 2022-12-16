@@ -1,0 +1,24 @@
+::selection {
+  color: white;
+  background: #363636;
+}
+
+* {
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(245, 245, 247);
+}
+
+table td {
+  height: 100px;
+}
+
+.customInputNumber1:focus-visible {
+  outline: none !important;
+}

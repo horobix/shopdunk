@@ -1,0 +1,36 @@
+.swiper-button-prev,
+.swiper-button-next {
+  align-items: center;
+  justify-content: center;
+
+  width: 35px !important;
+  height: 35px !important;
+  border-radius: 50%;
+
+  color: white !important;
+  background-color: hsl(0, 0%, 0%, 0.5);
+}
+
+.swiper-button-prev {
+  left: 40px !important;
+}
+
+.swiper-button-prev:after {
+  display: block;
+  font-size: 15px !important;
+  font-weight: 1000 !important;
+}
+
+.swiper-button-next {
+  right: 40px !important;
+}
+
+.swiper-button-next:after {
+  display: block;
+  font-size: 15px !important;
+  font-weight: 1000 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #363636 !important;
+}
